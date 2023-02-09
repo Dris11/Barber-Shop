@@ -1,7 +1,27 @@
-.navigation-list li a {
+:root {
+    --background-section: gray;
+}
+
+html {
     font-family: "Open Sans";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+.navigation-list li a {
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.1em;
@@ -10,9 +30,46 @@
 }
 
 .header-navigation {
-    background-color: yellow;
+    background-color: var(--background-section);
 }
 
-.navigation-list > li {
-    list-style: none;
+.online-booking-button {
+    box-sizing: border-box;
+    border: 1px solid #ff6c00;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    background: rgba(25, 28, 38, 0.2);
+}
+
+.hero-section {
+    background-color: var(--background-section);
+}
+.sub-title-section {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.title-section {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.text-section {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.page-section {
+    background-color: var(--background-section);
 }
