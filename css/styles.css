@@ -1,6 +1,10 @@
+/* VARIABLES */
+
 :root {
     --background-section: gray;
 }
+
+/* GLOBALS */
 
 html {
     font-family: "Open Sans";
@@ -13,12 +17,6 @@ html {
 
 .unstyled-list {
     list-style: none;
-}
-
-.navigation-list li a {
-    font-family: "Open Sans";
-    color: #ffffff;
-    text-decoration: none;
 }
 
 .link {
@@ -35,6 +33,12 @@ html {
     background-color: var(--background-section);
 }
 
+.navigation-list li a {
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .online-booking-button {
     box-sizing: border-box;
     border: 1px solid #ff6c00;
@@ -44,30 +48,6 @@ html {
     letter-spacing: 0.09em;
     text-transform: uppercase;
     background: rgba(25, 28, 38, 0.2);
-}
-
-.hero-sub-title-section {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
-}
-.hero-title-section {
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 85px;
-    letter-spacing: 0.05em;
-    color: #ffffff;
-}
-
-.hero-text-section {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.02em;
-    color: #9da4bd;
 }
 
 .sub-title-section {
@@ -104,6 +84,34 @@ html {
     color: #555555;
 }
 
+/* HERO SECTION */
+
+.hero-sub-title-section {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-title-section {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.hero-text-section {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+/* PORTFOLIO SECTION */
+
 .card {
     width: 170px;
     height: 133px;
@@ -133,6 +141,8 @@ html {
     text-align: center;
     color: #ff6c00;
 }
+
+/* OUR-BARBERS SECTION */
 
 .our-barbers .image {
     width: 370px;
