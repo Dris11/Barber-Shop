@@ -168,6 +168,12 @@ html {
     gap: 20px;
 }
 
+.button-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
 /* SERVICES SECTION */
 
 .services {
@@ -216,6 +222,29 @@ html {
 
 /* OUR-BARBERS SECTION */
 
+.barber-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-barbers-list {
+    display: flex;
+    gap: 30px;
+}
+
+.our-barbers-list li {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.our-barbers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .our-barbers .image {
     width: 370px;
     height: 346px;
@@ -237,4 +266,24 @@ html {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ff6c00;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icons ul {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: gray;
 }
