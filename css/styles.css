@@ -58,13 +58,19 @@ html {
 
 .header-container,
 .hero-section,
-.about {
+.about,
+.portofolio {
     width: 1170px;
     margin: 0px auto;
 }
 
 .page-header {
     display: flex;
+    margin-left: 155px;
+}
+
+.logo-holder .link {
+    color: black;
 }
 
 .navigation-list li a {
@@ -120,6 +126,11 @@ html {
     line-height: 26px;
     letter-spacing: 0.02em;
     color: #555555;
+}
+
+.logo-holder {
+    position: absolute;
+    width: 155px;
 }
 
 /* HERO SECTION */
@@ -190,9 +201,51 @@ html {
 
 /* PORTFOLIO SECTION */
 
+.cards-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portofolio {
+    display: flex;
+
+    padding: 129px 70px 120px 100px;
+}
+
+.cards-left-side,
+.cards-right-side {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 133px;
+    background: #f7f7f7;
+    padding: 20px 24px;
+}
+
+.card:nth-child(2n) {
+    position: relative;
+    top: 35px;
+}
+
+.card-title:after {
+    content: "+";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #ff6c00;
+    position: relative;
+    bottom: 28px;
+    left: 2px;
 }
 
 .card-title {
@@ -210,14 +263,6 @@ html {
     line-height: 15px;
     text-align: center;
     color: #303030;
-}
-
-.sup {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #ff6c00;
 }
 
 /* OUR-BARBERS SECTION */
