@@ -332,3 +332,67 @@ html {
     border-radius: 50%;
     background-color: gray;
 }
+
+.activities {
+    padding: 120px 215px;
+    display: flex;
+    gap: 44px;
+    flex-direction: column;
+}
+
+.activities ul {
+    display: flex;
+    gap: 30px;
+}
+
+.online-booking {
+    display: flex;
+    background-color: #191c26;
+    padding: 100px;
+}
+
+.online-booking .left-side,
+.online-booking .right-side {
+    flex: 1 0 50%;
+}
+
+.online-booking .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.online-booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.online-booking-form input {
+    flex: 1 0 40%;
+}
+
+.online-booking-form input,
+.online-booking-form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(157, 164, 189, 0.4);
+    outline: none;
+}
+
+.online-booking-form textarea {
+    flex: 1 0 100%;
+    resize: none;
+}
+
+.online-booking-form input:focus,
+.online-booking-form textarea:focus {
+    border-bottom: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.online-booking-form input:focus::placeholder,
+.online-booking-form textarea:focus::placeholder {
+    color: white;
+}

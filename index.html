@@ -344,11 +344,10 @@
                 </ul>
             </section>
             <!-- ACTIVITIES SECTION -->
-            <section class="page-section activites">
+            <section class="page-section activities">
                 <h3 class="sub-title-section">
                     In Latin, "barba" means "beard"
                 </h3>
-                <h2 class="title-section">Hair Cut Action</h2>
                 <ul class="unstyled-list">
                     <li><img src="images/4.jpg" alt="hairCutAction" /></li>
                     <li><img src="images/5.jpg" alt="hairCutAction" /></li>
@@ -358,14 +357,19 @@
             </section>
             <!-- ONLINE BOOKING SECTION -->
             <section class="page-section online-booking">
-                <div>
+                <div class="left-side">
                     <h3 class="sub-title-section">Online-Booking</h3>
-                    <input placeholder="Name" />
-                    <input placeholder="Phone" />
-                    <input placeholder="Message" />
-                    <button>Send</button>
+                    <form name="online-booking" class="online-booking-form">
+                        <input type="text" placeholder="NAME*" name="name" />
+                        <input type="tel" placeholder="PHONE*" name="phone" />
+                        <textarea
+                            placeholder="MESSAGE"
+                            name="messages"
+                        ></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
                 </div>
-                <div>
+                <div class="right-side">
                     <h3 class="sub-title-section">Contacts</h3>
                     <address>
                         <ul class="unstyled-list">
