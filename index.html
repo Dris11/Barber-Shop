@@ -16,6 +16,16 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
+        <!-- MODAL -->
+        <div class="modal is-hidden" data-modal>
+            <div class="inner-div">
+                <button class="close-button" data-modal-close>
+                    <svg width="11" height="11">
+                        <use href="images/symbols.svg#icon-X"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
         <!-- PAGE HEADER -->
         <div class="header-container">
             <div class="logo-holder">
@@ -55,7 +65,10 @@
                             >
                         </li>
                         <li class="contact-list-item">
-                            <button class="online-booking-button">
+                            <button
+                                class="online-booking-button"
+                                data-modal-open
+                            >
                                 ONLINE-BOOKING
                             </button>
                         </li>
@@ -405,5 +418,6 @@
                 <li><a class="link" href="#"></a>Youtube</li>
             </ul>
         </footer>
+        <script src="/js/modal.js"></script>
     </body>
 </html>
